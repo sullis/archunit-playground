@@ -18,6 +18,8 @@ jobs:
       with:
         java-version: ${{ matrix.java }}
         distribution: 'temurin'
-        cache: 'maven'
+        cache: 'gradle'
+    - name: Setup Gradle
+      uses: gradle/actions/setup-gradle@v4
     - name: Build
-      run: mvn -ntp -B clean test
+      run: ./gradlew clean test
