@@ -21,7 +21,7 @@ val commonsIoVersion = "2.22.0"
 val commonsLang3Version = "3.20.0"
 val jacksonVersion = "2.22.1"
 val junitBomVersion = "6.1.2"
-val logbackVersion = "1.5.38"
+val logbackVersion = "1.6.0"
 val slf4jVersion = "2.0.18"
 val testcontainersBomVersion = "2.0.5"
 
