@@ -18,7 +18,7 @@ repositories {
 val assertjVersion = "4.0.0-M1"
 val awaitilityVersion = "4.3.0"
 val commonsIoVersion = "2.22.0"
-val commonsLang3Version = "3.20.0"
+val commonsLang3Version = "3.21.0"
 val jacksonVersion = "2.22.3"
 val junitBomVersion = "6.1.3"
 val logbackVersion = "1.6.4"
